@@ -420,7 +420,7 @@ span{
     border: 0.1rem solid var(--main-color);
     border-radius: 0.2rem;
     padding: .2rem 1.5rem;
-    z-index: -1;
+    z-index: 1;
     overflow: hidden;
 }
 
@@ -429,10 +429,15 @@ span{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 0;
     height: 100%;
-    background: red;
+    background: var(--bg-color);
     z-index: -1;
+    transition: .5s;
+}
+
+.skills-box .skills-content:hover::before{
+    width: 100%;
 }
 
 .skills-content .progress{
