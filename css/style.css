@@ -672,6 +672,15 @@ span{
     display: none;
 }
 
+.cv {
+    padding-bottom: 0;
+}
+
+.cv {
+    margin-top: 0;
+    padding-top: 0rem; 
+}
+
 /* Animation Keyframes */
 @keyframes animate {
     0% { opacity: 0; transform: translateY(20px); }
@@ -692,7 +701,6 @@ span{
     --i: 1;
     animation-delay: calc(var(--i) * 0.2s);
 }
-
 
 .contact{
     min-height: auto;
