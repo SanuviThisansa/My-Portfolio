@@ -219,7 +219,7 @@ section{
 .home-sci{
     position: absolute;
     bottom: 4rem;
-    width: 170px;
+    width: 270px;
     display: flex;
     justify-content: space-between;
 }
@@ -445,6 +445,7 @@ span{
     font-size: 1.6rem;
     padding-top: .5rem;
 }
+
 
 .skills{
     min-height: auto;
